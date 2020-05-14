@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cat-ln-quotes-salesorder-client-side-solution",
+    "id": "a4771542-7885-45e1-8a1a-be75e287476a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/cat-ln-quotes-salesorder.sppkg"
+  }
+}
