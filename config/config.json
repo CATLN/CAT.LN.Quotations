@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/workToolQuote/WorkToolQuoteWebPart.manifest.json"
         }
       ]
+    },
+    "fax-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/faxForm/FaxFormWebPart.js",
+          "manifest": "./src/webparts/faxForm/FaxFormWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "WorkToolQuoteWebPartStrings": "lib/webparts/workToolQuote/loc/{locale}.js"
+    "WorkToolQuoteWebPartStrings": "lib/webparts/workToolQuote/loc/{locale}.js",
+    "FaxFormWebPartStrings": "lib/webparts/faxForm/loc/{locale}.js"
   }
 }
